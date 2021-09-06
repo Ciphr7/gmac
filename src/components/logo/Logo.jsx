@@ -3,11 +3,12 @@ import React from 'react';
 import {Link} from "react-router-dom";
 
 
-const Logo = ({image}) => {
+const Logo = () => {
     return(
         <div className="header-logo">
             <Link to={process.env.PUBLIC_URL + "/"}>
-                <img className="dark-logo" src={process.env.PUBLIC_URL + image} alt="Agency Logo" />
+                <h1>BzeBee</h1>
+                {/* <img className="dark-logo" src={process.env.PUBLIC_URL + image} alt="Agency Logo" /> */}
             </Link>
         </div>
     )
