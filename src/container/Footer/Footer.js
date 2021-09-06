@@ -21,8 +21,8 @@ const Footer = () => {
                                 <div className="content">
 
 
-                                    <p><Link to={process.env.PUBLIC_URL + "/"}>(+1) 212-946-2701</Link></p>
-                                    <p><Link to={process.env.PUBLIC_URL + "/"}>hello@hasagency.com</Link> </p>
+                                    <p><Link to={process.env.PUBLIC_URL + "/"}>(+) 501-663-2701</Link></p>
+                                    <p><Link to={process.env.PUBLIC_URL + "/"}>hello@bzebee.com</Link> </p>
                                 </div>
                                 <div className="footer-social-inline">
                                     <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter-square"></i></a>
@@ -46,7 +46,7 @@ const Footer = () => {
 
                 <div className="row">
                     <div className="col">
-                        <p className="copyright">&copy; 2021 <strong>Exomac</strong> Made with <i className="fas fa-heart text-danger"></i> by <a target="_blank" rel="noopener noreferrer" href="https://hasthemes.com/"><strong>HasThemes</strong></a>.</p>
+                        <p className="copyright">&copy; 2021 <strong>BzeBee</strong> Made by <a target="_blank" rel="noopener noreferrer" href="https://bzebee.com/"><strong>ciphr7</strong></a>.</p>
                     </div>
                 </div>
 

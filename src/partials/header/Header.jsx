@@ -2,7 +2,6 @@ import {Fragment, useState, useEffect} from "react";
 import Logo from '../../components/logo/Logo';
 import NavBar from '../../components/NavBar/NavBar';
 import HeaderSearch from '../../components/HeaderSearch/HeaderSearch';
-import Btn from '../../components/Btn/Btn';
 import MobileMenu from "../../components/NavBar/MobileMenu"
 import MainSearch from "../../components/NavBar/MainSearch"
 
@@ -61,9 +60,7 @@ const Header = () => {
                                 </div>
                             </div>
 
-                            <div className="col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2">
-                                <Btn name='Buy Now' />
-                            </div>
+                           
                         </div>
                     </div>
                 </div>
