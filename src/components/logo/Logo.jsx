@@ -8,7 +8,6 @@ const Logo = () => {
         <div className="header-logo">
             <Link to={process.env.PUBLIC_URL + "/"}>
                 <h1>BzeBee</h1>
-                {/* <img className="dark-logo" src={process.env.PUBLIC_URL + image} alt="Agency Logo" /> */}
             </Link>
         </div>
     )
