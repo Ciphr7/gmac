@@ -1,4 +1,4 @@
-import {useEffect} from "react";
+import {useEffect, hashHistory} from "react";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import AOS from "aos";
 import NavScrollTop from './components/NavScrollTop';
@@ -34,7 +34,7 @@ function App() {
     
   }, [])
   return (
-      <Router>
+      <Router history={hashHistory}>
         <NavScrollTop>
             <Switch>
               <Route path={`${process.env.PUBLIC_URL + "/"}`} exact component={HomeOne}/>
