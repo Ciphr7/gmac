@@ -3,4 +3,3 @@ RewriteCond %{HTTP_HOST} ^bzebee.com$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^www.bzebee.com$
 RewriteCond %{REQUEST_URI} !build/
 RewriteRule (.*) /build/$1 [L]
-RewriteRule ^ /build/index.html [L]

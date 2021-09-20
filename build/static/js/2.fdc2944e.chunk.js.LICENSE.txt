@@ -33,7 +33,7 @@ object-assign
      */
 
 /*!
-  Copyright (c) 2018 Jed Watson.
+  Copyright (c) 2017 Jed Watson.
   Licensed under the MIT License (MIT), see
   http://jedwatson.github.io/classnames
 */
@@ -102,12 +102,12 @@ PERFORMANCE OF THIS SOFTWARE.
 
 /**
  * vivus - JavaScript library to make drawing animation on SVG
- * @version v0.4.6
+ * @version v0.4.5
  * @link https://github.com/maxwellito/vivus
  * @license MIT
  */
 
-/** @license React v0.20.2
+/** @license React v0.20.1
  * scheduler.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -152,7 +152,7 @@ PERFORMANCE OF THIS SOFTWARE.
      * LICENSE file in the root directory of this source tree.
      */
 
-/** @license React v17.0.2
+/** @license React v17.0.1
  * react-dom.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -161,7 +161,7 @@ PERFORMANCE OF THIS SOFTWARE.
  * LICENSE file in the root directory of this source tree.
  */
 
-/** @license React v17.0.2
+/** @license React v17.0.1
  * react-jsx-runtime.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -170,7 +170,7 @@ PERFORMANCE OF THIS SOFTWARE.
  * LICENSE file in the root directory of this source tree.
  */
 
-/** @license React v17.0.2
+/** @license React v17.0.1
  * react.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
